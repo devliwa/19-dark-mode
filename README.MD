@@ -1,41 +1,30 @@
-## Dark Mode
+# 19 Dark Mode Project
 
-#### HTML Structure
+A JavaScript project that allows users to toggle between light mode and dark mode.  
+This project is great for practicing DOM manipulation, event handling, and adding user-friendly UI features.
 
-- main tags
-  - nav
-    - div.nav-center
-      - span 'overreacted'
-      - button.btn 'toggle'
-  - section.articles
-    - article.post
-      - h2 'post title'
-      - div.post-info
-        - span 'date'
-        - span 'read time'
-      - p 'content'
+---
 
-#### Toggle - JS
+## Features
+- Toggle between light and dark themes with a single button  
+- The button text updates dynamically ("Dark Mode" ↔ "Light Mode")  
+- Smooth transitions for background and text colors  
 
-- select button
-- add click event listener
+---
 
-#### Toggle - CSS
+## Built With
+- **HTML5** for structure  
+- **CSS3** for styling and transitions  
+- **JavaScript (ES6)** for interactivity  
 
-- create .dark-theme class
+---
 
-#### Toggle - JS
+## Demo Preview
+[19 Dark Mode Project]()
 
-- select root element (html), toggle .dark-theme
+---
 
-#### Import Data
-
-#### Display Articles
-
-- select articles
-- iterate over, return article.post for each article
-
-#### Format Date
-
-- import moment.js
-- format date
+## What I Learned
+- Using JavaScript to toggle CSS classes  
+- Dynamically updating button text based on state  
+- Applying smooth CSS transitions for better UX 
